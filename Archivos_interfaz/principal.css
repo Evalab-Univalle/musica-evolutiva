@@ -1,0 +1,87 @@
+.contenidoBox{
+    width:530px;
+    text-align: center;
+    margin:0 auto;
+}
+.contenido{
+    width:480px;
+    border: solid 3px #CCC;
+    text-align: center;
+    margin: 0 auto;
+}
+.audio_box{   
+    margin:  10px auto;
+    padding:10px 15px;
+    border: dashed 2px #CCC;
+    width: 420px;
+}
+
+.audio_box div{
+  display: inline-block;
+}
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+#calificacion{
+    margin:10px;
+}
+
+.stars{
+    float:left;
+    text-align: left;
+    height:19px;
+    width: 110px;
+    background:#e8e8fe url('./ratingfiles/star0.png') repeat-x top left;
+    padding:1px;
+    margin:1px;
+}
+
+.stars1{
+    height:19px;
+    width: 22px;
+    margin:0;
+    background:#e8e8fe url('./ratingfiles/star2.png') repeat-x top left;
+}
+.stars2{
+    height:19px;
+    width: 44px;
+    margin:0;
+    background:#e8e8fe url('./ratingfiles/star2.png') repeat-x top left;
+}
+.stars3{
+    height:19px;
+    width: 66px;
+    margin:0;
+    background:#e8e8fe url('./ratingfiles/star2.png') repeat-x top left;
+}
+.stars4{
+    height:19px;
+    width: 88px;
+    margin:0;
+    background:#e8e8fe url('./ratingfiles/star2.png') repeat-x top left;
+}
+.stars5{
+    height:19px;
+    width: 110px;
+    margin:0;
+    background:#e8e8fe url('./ratingfiles/star2.png') repeat-x top left;
+}
+
+.linea{
+    text-align:left;
+    float:left;
+    width:500px;
+}
+
+.cajaCalificacion{
+    margin:5px;
+    height:150px;
+
+}

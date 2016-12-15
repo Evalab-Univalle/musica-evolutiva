@@ -1,0 +1,61 @@
+.srtgs .stars, .srtgs .d_rtg, .srtgs .totalrate { width:110px; }
+.srtgs {
+ position:relative;
+ width:130px;
+ margin:0 auto;
+ border:1px solid #e1e2fe;
+ font-family:"Calibri", Arial, sans-serif;
+ text-align:left;
+ padding:1px;
+ box-shadow:.17em .2em .23em #a0a0e0;
+ -webkit-box-shadow:.17em .2em .23em #a0a0e0;
+ -moz-border-radius:.7em;
+ -webkit-border-radius:.7em;
+ -khtml-border-radius:.7em;
+ border-radius:.7em;
+}
+.srtgs .stars {
+ position:relative;
+ height:19px;
+ margin:0;
+ background:#e8e8fe url('star0.png') repeat-x top left;
+ padding:1px;
+}
+.srtgs .d_rtg {
+ position:absolute;
+ top:0; left:0;
+ margin:0;
+ height:19px;
+ border:1px solid #ededfe;
+}
+.srtgs .totalrate {
+ position:relative;
+ text-align:center;
+ font-weight:bold;
+ color:red;
+}
+.totalrate i {
+ padding-right:12px;
+ color:#010101;
+}
+.totalrate span{
+ color:#0001ed;
+}
+ .srtgs .d_rtg span {
+  display:block;
+  width:22px;
+  float:left;
+  cursor:pointer;
+ }
+.srtgs .star_n {
+ position:relative;
+ height:19px;
+ margin:0;
+ background:#e8e8fe url('star1.png') repeat-x top left;
+}
+.srtgs em {
+ display:block;
+ margin:1px 11px;
+ font-size:13px;
+ text-align:right;
+}
